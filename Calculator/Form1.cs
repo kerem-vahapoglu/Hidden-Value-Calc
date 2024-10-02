@@ -46,46 +46,55 @@ namespace Calculator
         private void bt_1_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_1.Enabled = false;
         }
 
         private void bt_2_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_2.Enabled = false;
         }
 
         private void bt_3_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_3.Enabled = false;
         }
 
         private void bt_4_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_4.Enabled = false;
         }
 
         private void bt_5_Click(object sender, EventArgs e)
         {          
             number(sender, e);
+            bt_5.Enabled = false;
         }
 
         private void bt_6_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_6.Enabled = false;
         }
 
         private void bt_7_Click(object sender, EventArgs e)
         {
-            number(sender, e);
+            number(sender, e); 
+            bt_7.Enabled = false;
         }
 
         private void bt_8_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_8.Enabled = false;   
         }
 
         private void bt_9_Click(object sender, EventArgs e)
         {
             number(sender, e);
+            bt_9.Enabled = false;   
         }
 
 
@@ -94,6 +103,16 @@ namespace Calculator
             total = 0;
             label1.Text = "0";
             txt_total.Text = "";
+            bt_1.Enabled = true;
+            bt_2.Enabled = true;
+            bt_3.Enabled = true;
+            bt_4.Enabled = true;
+            bt_5.Enabled = true;
+            bt_6.Enabled = true;
+            bt_7.Enabled = true;
+            bt_8.Enabled = true;
+            bt_9.Enabled = true;
+
 
         }
 
